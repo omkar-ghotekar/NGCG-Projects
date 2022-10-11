@@ -1,0 +1,36 @@
+Q1. How to install spring boot in eclipse?? 
+
+Step 1: Install intellij on computer.
+Step 2: Create a new project using file menu.
+Step 3: Select the necessary jars, dependencies and jdk versions, etc for the project you want to build.
+Step 4: Select the dependencies required and thus your project in intellij is created.
+
+
+
+Q2. Impliment Spring Actuator to monitor one microservice? 
+Step 1: Add dependencies for spring-boot-starter-actuator to the pom file of the project.
+Step 2: import the necessary changes to the file.
+Step 3: we can also use differenr features for actuators such as feeatures, beans, caches-cache, and thus monitor health of an element.
+
+
+Q3. Please create and deploy one microservice using Spring CLI?
+Step 1: Create a spring boot project in intellij
+Step 2: Setup all dependencies in the intellij 
+Step 3: Create a simple microservice in the controller using @RestController command and  
+using @Requestmapping  create a simple function which returns and thus create an index.html page. The microservice shpuld return the index page.
+Step 4: Run the application using intellij idea and thus check for the localhost:8080/microserviceName and thus your microservice has got deployed.
+
+
+
+ Q4. Please change default server port from 8080 to 9090?
+ Step 1: in the pom.xml write command server.port=9090 and thus port gets changed from 8080 to 9090
+
+
+
+
+ Q5. How to resolve whitelabel error page in spring boot application?
+We can use the following command to disable whitelabel in springboot : server.error.whitelabel.enabled=false
+OR
+We can thus write an error microservice and thus put value="/error" and hit that microservice when we get error in intellij
+
+
